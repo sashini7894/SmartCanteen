@@ -73,4 +73,6 @@ Follow these steps to run the project locally on your machine:
    ```bash
    git clone [https://github.com/sashini7894/SmartCanteen.git](https://github.com/sashini7894/SmartCanteen.git)
 
+
+
 Demo Video-: 
