@@ -49,4 +49,28 @@ Notification Explanation
     1. On app launch ('app/_layout.js'), the app requests notification permissions and configures 'Notifications.setNotificationHandler' so alerts appear even when the app is in the foreground.
     2. When the user taps Confirm & Place Order** on the Order Summary screen, 'Notifications.scheduleNotificationAsync' schedules a notification with the message "Your Order is Ready for Pickup!" (configured with a 3-second trigger delay for demonstration purposes).
 
+Local Setup Commands
+      A cross-platform mobile application developed using React Native (Expo) for university canteen ordering, featuring real-time cart management, customer details validation, and local push notifications.
+
+ Features
+- Interactive Menu: Browse canteen food items with category filtering.
+- Cart Management: Add, update, or remove items seamlessly using React Context.
+- Customer Details Form: Enter Name, Phone Number, and Pickup Location with form validation.
+- Push Notifications:Instant order confirmation notifications via `expo-notifications`.
+- Estimated Prep Time: Dynamic preparation time calculation based on cart items.
+
+ Tech Stack
+- Framework:React Native (Expo)
+- Routing:Expo Router
+- State Management:React Context API
+- Notifications:Expo Notifications
+
+ Local Setup Commands
+
+Follow these steps to run the project locally on your machine:
+
+1.Clone the repository:
+   ```bash
+   git clone [https://github.com/sashini7894/SmartCanteen.git](https://github.com/sashini7894/SmartCanteen.git)
+
 Demo Video-: 
